@@ -31,7 +31,7 @@ Install `twitch-portable-{ia32,x64}-x.x.x-x-setup.exe` where you want then run `
 
 If **you have already installed Twitch from the original release**, do the same thing as a fresh installation and move :
 
-* `%APPDATA%\Twitch\*` to `app`
+* `%APPDATA%\Twitch\*` to `app` except `Bin` folder.
 
 Run `twitch-portable.exe` and then you can [remove](https://support.microsoft.com/en-us/instantanswers/ce7ba88b-4e95-4354-b807-35732db36c4d/repair-or-remove-programs) Twitch from your computer.
 
