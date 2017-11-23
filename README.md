@@ -21,7 +21,7 @@ There are different kinds of artifacts :
 * `twitch-portable-{ia32,x64}-x.x.x-x-setup.exe` : Full portable release of Twitch as a setup. **Recommended way**!
 * `twitch-portable-{ia32,x64}-x.x.x-x.7z` : Full portable release of Twitch as a 7z archive.
 * `twitch-portable-{ia32,x64}.exe` : Only the portable binary (must be renamed `twitch-portable.exe`)
-* `TwitchSetup-{ia32,x64}-x.x.x.zip` : The original release from the [official website](https://app.twitch.tv/).
+* `TwitchSetup-{ia32,x64}-x.x.x.exe` : The original release from the [official website](https://app.twitch.tv/).
 
 ### Fresh installation
 
