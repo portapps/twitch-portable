@@ -13,9 +13,9 @@ func init() {
 }
 
 func main() {
-	Papp.AppPath = AppPathJoin("app")
+	Papp.AppPath = AppPathJoin("Bin")
 	Papp.DataPath = AppPathJoin("data")
-	Papp.Process = PathJoin(Papp.AppPath, "Bin", "Twitch.exe")
+	Papp.Process = PathJoin(Papp.AppPath, "Twitch.exe")
 	Papp.Args = nil
 	Papp.WorkingDir = Papp.AppPath
 
