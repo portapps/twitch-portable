@@ -16,4 +16,18 @@
   <!-- Targets -->
   <target name="release" depends="release.app" description="Release"/>
 
+  <target name="prepare">
+    <echo message="Preparing release..."/>
+
+    <move todir="${tmp.path}\extract2">
+      <fileset dir="${extract.path}\Bin">
+        <exclude name="UninstallTwitch.exe"/>
+      </fileset>
+    </move>
+    <delete dir="${extract.path}"/>
+    <move todir="${extract.path}">
+      <fileset dir="${tmp.path}\extract2"/>
+    </move>
+  </target>
+
 </project>
