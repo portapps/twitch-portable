@@ -21,7 +21,7 @@ There are different kinds of artifacts :
 * `twitch-portable-{ia32,x64}-x.x.x-x-setup.exe` : Full portable release of Twitch as a setup. **Recommended way**!
 * `twitch-portable-{ia32,x64}-x.x.x-x.7z` : Full portable release of Twitch as a 7z archive.
 * `twitch-portable-{ia32,x64}.exe` : Only the portable binary (must be renamed `twitch-portable.exe`)
-* `TwitchSetup-{ia32,x64}-x.x.x.exe` : The original release from the [official website](https://app.twitch.tv/).
+* `TwitchSetup.exe` : Can be found in the [untouched repository](https://github.com/portapps/untouched/releases). 
 
 ### Fresh installation
 
@@ -29,7 +29,7 @@ Install `twitch-portable-{ia32,x64}-x.x.x-x-setup.exe` where you want then run `
 
 ### App already installed
 
-If **you have already installed Twitch from the original release**, do the same thing as a fresh installation and move :
+If **you have already installed Twitch from the original setup**, do the same thing as a fresh installation and move :
 
 * Content of folder where Twitch is installed (default to `%APPDATA%\Twitch\*`) to the root folder except `Bin` folder.
 

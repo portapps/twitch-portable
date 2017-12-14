@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.5.6557.923-4 (2017/12/14)
+
+* New release of Twitch : 7.5.6557.923
+
 ## 7.5.6543.2605-3 (2017/12/04)
 
 * New release of Twitch : 7.5.6543.2605
