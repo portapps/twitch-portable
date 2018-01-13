@@ -1,5 +1,13 @@
 # Changelog
 
+## 7.5.6563.2244-5 (2018/01/13)
+
+* New release of Twitch : 7.5.6585.2139
+* No need to override USERPROFILE env var
+
+> :warning: **UPGRADE NOTES**
+> * Remove `data` folder.
+
 ## 7.5.6563.2244-5 (2017/12/27)
 
 * New release of Twitch : 7.5.6563.2244

@@ -14,14 +14,10 @@ func init() {
 
 func main() {
 	Papp.AppPath = AppPathJoin("Bin")
-	Papp.DataPath = AppPathJoin("data")
+	Papp.DataPath = ""
 	Papp.Process = PathJoin(Papp.AppPath, "Twitch.exe")
 	Papp.Args = nil
 	Papp.WorkingDir = Papp.AppPath
 
-	roamingPath := CreateFolder(PathJoin(Papp.DataPath, "AppData", "Roaming", "Twitch"))
-	Log.Infof("Roaming path: %s", roamingPath)
-
-	OverrideEnv("USERPROFILE", Papp.DataPath)
 	Launch()
 }
