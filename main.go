@@ -3,6 +3,8 @@
 package main
 
 import (
+	"os"
+
 	. "github.com/portapps/portapps"
 )
 
@@ -19,5 +21,5 @@ func main() {
 	Papp.Args = nil
 	Papp.WorkingDir = Papp.AppPath
 
-	Launch()
+	Launch(os.Args[1:])
 }

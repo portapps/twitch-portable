@@ -19,14 +19,14 @@ Tested on Windows 7, Windows 8.1 and Windows 10.
 
 There are different kinds of artifacts :
 
-* `twitch-portable-{ia32,x64}-x.x.x-x-setup.exe` : Full portable release of Twitch as a setup. **Recommended way**!
-* `twitch-portable-{ia32,x64}-x.x.x-x.7z` : Full portable release of Twitch as a 7z archive.
-* `twitch-portable-{ia32,x64}.exe` : Only the portable binary (must be renamed `twitch-portable.exe`)
+* `twitch-portable-win{32,64}-x.x.x-x-setup.exe` : Full portable release of Twitch as a setup. **Recommended way**!
+* `twitch-portable-win{32,64}-x.x.x-x.7z` : Full portable release of Twitch as a 7z archive.
+* `twitch-portable-win{32,64}.exe` : Only the portable binary (must be renamed `twitch-portable.exe`)
 * `TwitchSetup.exe` : Can be found in the [untouched repository](https://github.com/portapps/untouched/releases). 
 
 ### Fresh installation
 
-Install `twitch-portable-{ia32,x64}-x.x.x-x-setup.exe` where you want then run `twitch-portable.exe`.
+Install `twitch-portable-win{32,64}-x.x.x-x-setup.exe` where you want then run `twitch-portable.exe`.
 
 ### App already installed
 
