@@ -1,3 +1,5 @@
 module github.com/portapps/twitch-portable
 
-require github.com/portapps/portapps v1.19.1
+go 1.12
+
+require github.com/portapps/portapps v1.28.0
