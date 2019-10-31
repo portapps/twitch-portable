@@ -6,20 +6,33 @@ import (
 	"os"
 
 	. "github.com/portapps/portapps"
+	"github.com/portapps/portapps/pkg/utl"
+)
+
+var (
+	app *App
 )
 
 func init() {
-	Papp.ID = "twitch-portable"
-	Papp.Name = "Twitch"
-	Init()
+	var err error
+
+	// Init app
+	if app, err = New("twitch-portable", "Twitch"); err != nil {
+		Log.Fatal().Err(err).Msg("Cannot initialize application. See log file for more info.")
+	}
 }
 
 func main() {
-	Papp.AppPath = AppPathJoin("Bin")
-	Papp.DataPath = ""
-	Papp.Process = PathJoin(Papp.AppPath, "Twitch.exe")
-	Papp.Args = nil
-	Papp.WorkingDir = Papp.AppPath
+	app.AppPath = utl.PathJoin(app.RootPath, "Bin")
+	app.DataPath = ""
+	app.Process = utl.PathJoin(app.AppPath, "Twitch.exe")
+	app.WorkingDir = app.AppPath
 
-	Launch(os.Args[1:])
+	// On exit
+	defer func() {
+		// Remove tmp path
+		os.RemoveAll(utl.PathJoin(utl.RoamingPath(), "Twitch"))
+	}()
+
+	app.Launch(os.Args[1:])
 }
