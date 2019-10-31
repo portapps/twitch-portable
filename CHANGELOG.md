@@ -1,24 +1,29 @@
 # Changelog
 
+## 7.5.6991.283-14 (2019/03/21)
+
+* Twitch 7.5.6991.283
+* Portapps 1.20.3
+
 ## 7.5.6774.199-13 (2018/07/24)
 
-* Upgrade to Twitch 7.5.6774.199
+* Twitch 7.5.6774.199
 
 ## 7.5.6715.42973-12 (2018/05/29)
 
-* Upgrade to Twitch 7.5.6715.42973
+* Twitch 7.5.6715.42973
 
 ## 7.5.6668.295-11 (2018/04/07)
 
-* Upgrade to Twitch 7.5.6668.295
+* Twitch 7.5.6668.295
 
 ## 7.5.6635.1684-10 (2018/03/02)
 
-* Upgrade to Twitch 7.5.6635.1684
+* Twitch 7.5.6635.1684
 
 ## 7.5.6611.39437-9 (2018/02/12)
 
-* Upgrade to Twitch 7.5.6611.39437
+* Twitch 7.5.6611.39437
 * Move ia32/x64 to win32/win64 for arch def
 * Ability to pass custom args to the portable process
 * Move ia32/x64 to win32/win64 for arch def
@@ -27,15 +32,15 @@
 
 ## 7.5.6604.42919-8 (2018/02/07)
 
-* Upgrade to Twitch 7.5.6604.42919
+* Twitch 7.5.6604.42919
 
 ## 7.5.6591.2326-7 (2018/01/21)
 
-* Upgrade to Twitch 7.5.6591.2326
+* Twitch 7.5.6591.2326
 
 ## 7.5.6585.2139-6 (2018/01/13)
 
-* Upgrade to Twitch 7.5.6585.2139
+* Twitch 7.5.6585.2139
 * No need to override USERPROFILE env var
 
 > :warning: **UPGRADE NOTES**
@@ -43,15 +48,15 @@
 
 ## 7.5.6563.2244-5 (2017/12/27)
 
-* Upgrade to Twitch 7.5.6563.2244
+* Twitch 7.5.6563.2244
 
 ## 7.5.6557.923-4 (2017/12/14)
 
-* Upgrade to Twitch 7.5.6557.923
+* Twitch 7.5.6557.923
 
 ## 7.5.6543.2605-3 (2017/12/04)
 
-* Upgrade to Twitch 7.5.6543.2605
+* Twitch 7.5.6543.2605
 
 ## 7.5.6529.932-2 (2017/11/24)
 
